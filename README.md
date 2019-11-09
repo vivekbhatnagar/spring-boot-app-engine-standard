@@ -3,7 +3,7 @@ Spring boot application deploy-able on Google App Engine Standard
 
 
 ### Bacground
-Spring-boot comes with an embedded server and in order to run in App-Engine Standard environment, the conditions for the environment shouldbe met.
+Spring-boot comes with an embedded server and in order to run in App-Engine Standard environment, the conditions for the environment should be met.
 For the same, in this project, precisely in this commit : [2a67970d3](https://github.com/vivekbhatnagar/spring-boot-app-engine-standard/commit/2a67970d3e3103d26a2875b3c796c28d4b950c4a?diff=split)
 changes have been made to detach embedded server and attach with app-engine-standard-env specific configurations.
 
